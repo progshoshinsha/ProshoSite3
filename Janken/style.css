@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+p {
+  margin: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+/* ------ section ------ */
+
+section {
+  width: 500px;
+  border: 2px solid black;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-top: 64px;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  padding: 8px;
+  border-bottom: 2px solid black;
+}
+
+/* ------ field ------ */
+
+.field {
+  /* background: pink; */
+  display: flex;
+  text-align: center;
+  align-items: center;
+ margin-top: 16px;
+}
+
+.field img {
+  height: 100px;
+  margin: 8px 0;
+}
+
+.myField,
+.rivalField {
+  /* background: silver; */
+  flex: 3;
+}
+
+.field p {
+  text-align: center;
+  flex: 1;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* ------ textField ------*/
+
+.textField {
+  width: 100%;
+  height: 32px;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+.textField p {
+  line-height: 32px;
+  font-size: 22px;
+}
+
+/* ------ buttons ------ */
+
+.buttons {
+  text-align: center;
+  padding: 16px 0 24px;
+  border-bottom: 2px solid black;
+}
+
+.buttons p {
+  font-size: 14px;
+}
+
+.buttons button {
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+
+.buttons .jankenButton+.jankenButton {
+  margin-left: 16px;
+}
+
+.buttons img {
+  width: 70px;
+  height: 70px;
+}
+
+.retryButton {
+  display: block;
+  width: 120px;
+  margin: 16px auto 0;
+}
+
+/* ------ footer ------ */
+footer {
+  text-align: center;
+}

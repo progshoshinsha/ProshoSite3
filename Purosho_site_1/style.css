@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+}
+
+section {
+  background: url(back.png) center/contain;
+  width: 300px;
+  margin: 32px auto 0;
+  border: 2px solid gray;
+  border-radius: 8px;
+  text-align: center;
+  overflow: hidden;
+}
+
+work1-h1 {
+  margin: 0;
+  padding: 8px;
+  border-bottom: 2px solid gray;
+}
+
+p {
+  margin: 0;
+  padding: 16px 0;
+  border-bottom: 2px solid gray;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 8px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+}
+
+li {
+  background: lightcyan;
+  width: 200px;
+  margin: 8px auto;
+  line-height:2.5;
+  border-radius: 8px;
+}
+
+a {
+  width: inherit;
+  border-radius: inherit;
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.new-item {
+  position:relative
+}
+
+.new-icon{
+  background: lightcoral;
+  font-size: 13px;
+  padding: 0;
+  width: 40px;
+  line-height: 20px;
+  border-radius: 8px;
+  position:absolute;
+  top: -5px;
+  right:-16px;
+  border-bottom: 0;
+}
+
+.btn {
+  text-align: center;
+  margin: 64px 0 0;
+}
+
+.btn button {
+  border: 2px solid white;
+  font-weight: bold;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.btn button:hover {
+  background: lightgray;
+  cursor: pointer;
+}

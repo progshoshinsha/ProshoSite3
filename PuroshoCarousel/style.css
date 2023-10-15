@@ -1,0 +1,219 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+.container {
+  /* background: skyblue; */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+/* ------ header ------ */
+header {
+  background: black;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+}
+
+
+/* ---------- carousel ---------- */
+.carousel {
+  margin: 16px 0;
+}
+
+.carousel .container {
+  overflow: hidden;
+}
+
+.contents {
+  display: flex;
+  width: 100%;
+  transition: transform .3s;
+}
+
+.carousel li {
+  min-width: 100%;
+}
+
+.carousel section {
+  margin: 0 auto;
+  width: 100%;
+  height: 500px;
+  padding: 16px;
+}
+
+.contents h2 {
+  text-align: center;
+}
+
+/* ---------- about ---------- */
+.about {
+  background: lightpink;
+}
+
+.aboutContainer {
+  /* background: skyblue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 410px;
+  gap: 8px;
+}
+
+.aboutContainer h3 {
+  font-size: 24px;
+}
+
+.br-1 {
+  display: none;
+}
+
+.aboutContainer p {
+  font-size: 20px;
+}
+
+.br-2 {
+  display: block;
+}
+
+/* ---------- works ---------- */
+.works {
+  background: lightblue;
+}
+
+/* ---------- info ---------- */
+.info {
+  background: lightgreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ---------- buttons ---------- */
+.carousel .buttons {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.carousel .buttons ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 32px;
+  width: 200px;
+}
+
+.carousel .buttons {
+  cursor: pointer;
+  padding: 0;
+  user-select: none;
+}
+
+.carousel .buttons li:hover {
+  background: lightgray;
+}
+
+.carousel .buttons li+li {
+  margin-left: 16px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 0;
+  height: 32px;
+  border: 2px solid lightgray;
+  width: 100px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.prev:hover,
+.next:hover {
+  background: lightgray;
+}
+
+.prev {
+  left: 16px;
+}
+
+.next {
+  right: 16px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.carousel .currentContent {
+  background: lightgray;
+}
+
+#sp-menu-open,
+#sp-menu-close {
+  line-height: 32px;
+}
+
+/* --------- footer --------- */
+footer {
+  background: black;
+  text-align: center;
+  width: 100%;
+  height: 32px;
+}
+
+small {
+  color: white;
+}
+
+/* ---------- Humburger Menu ---------- */
+.mask {
+  display: none;
+  background: rgba(255, 255, 255, .9);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#sp-menu-open,
+#sp-menu-close{
+  display: none;
+}
+
+#sp-menu-close {
+  z-index: 3;
+}
+
+.show {
+  display: block !important;
+}

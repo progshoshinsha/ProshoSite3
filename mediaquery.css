@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+@media (max-width:930px) {
+
+  .news {
+    display: block;
+    padding: 8px 50px;
+  }
+
+  .news h4 {
+    margin-top: 8px;
+  }
+}
+
+@media (max-width:560px) {
+
+  .mq560-br {
+    display: block;
+  }
+
+  .about {
+    display: block;
+    text-align: center;
+  }
+
+  .about div{
+    text-align: left;
+    margin:32px 64px 0;
+  }
+
+  .works {
+    display: block;
+  }
+
+  .work {
+    width: calc(100% - 16px);
+  }
+
+  .work + .work {
+    margin-top: 16px;
+  }
+
+  .study-contents {
+    display: block;
+  }
+
+  .content {
+    width: calc(100% - 16px);
+  }
+
+  .content+.content {
+    margin-top: 16px;
+  }
+
+  .news {
+    padding: 4%;
+  }
+}
+
+@media (max-width:470px) {
+
+  .about div{
+    margin:32px 16px 0;
+  }
+
+
+  .study-materials {
+    padding: 16px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .news-container {
+    margin: 16px 32px;
+  }
+
+  .news {
+    padding:8px 16px;
+  }
+}

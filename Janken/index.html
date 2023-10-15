@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>じゃんけんゲーム</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+
+    <section>
+      <header>
+        <h1>
+          じゃんけんをしよう
+        </h1>
+      </header>
+
+      <div class="field">
+        <div class="myField">
+          <p>あなた</p>
+          <img class="myHand" src="img/mark_question.png" alt="あなたの手">
+        </div>
+        <p>VS</p>
+        <div class="rivalField">
+          <p>相手</p>
+          <img class="rivalHand" src="img/mark_question.png" alt="相手の手">
+        </div>
+      </div>
+
+      <div class="textField">
+        <p></p>
+      </div>
+
+      <div class="buttons">
+        <p>出す手を選ぼう</p>
+        <button class="jankenButton">
+          <img src="img/janken_gu.png" alt="グーを出す">
+        </button>
+        <button  class="jankenButton">
+          <img src="img/janken_choki.png" alt="チョキを出す">
+        </button>
+        <button  class="jankenButton">
+          <img src="img/janken_pa.png" alt="パーを出す">
+        </button>
+        <button class="retryButton">はじめから</button>
+      </div>
+
+      <footer>
+        <small>@progshoshinsha</small>
+      </footer>
+      
+    </section>
+
+  </main>
+  
+
+  <script src="main.js"></script>
+</body>
+
+</html>
